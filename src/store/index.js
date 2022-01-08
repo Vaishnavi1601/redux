@@ -21,6 +21,7 @@ const counterReducer = (state = {counter:0}, action) =>{
   return state;
 }
 
+
 //calling createStore and storing it in a constant store
 //this now creates our redux store
 const store = createStore(counterReducer);
